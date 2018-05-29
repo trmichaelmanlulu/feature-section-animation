@@ -1,0 +1,406 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.feature-section {
+    position: relative;
+    margin-top: -64px;
+    padding: 4em 0;
+}
+
+.feature-section-container {
+    width: 100%;
+    position: relative;
+    margin-top: 72px;
+    height: 279px;
+}
+.feature-section .feature-section-cityscape {
+    width: 100%;
+    background-image: url(https://www.montagebook.com/images/cells/taco-main/shipping-cityscape.png);
+    background-repeat: repeat-x;
+    height: 279px;
+    position: absolute;
+    top: 0;
+    background-position: 0 0;
+    -webkit-animation-name: cityscape;
+    -moz-animation-name: cityscape;
+    -ms-animation-name: cityscape;
+    -o-animation-name: cityscape;
+    animation-name: cityscape;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 14s;
+    -moz-animation-duration: 14s;
+    -ms-animation-duration: 14s;
+    -o-animation-duration: 14s;
+    animation-duration: 14s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.feature-section .feature-section-vehicle-1 {
+    position: absolute;
+    left: -308px;
+    top: 109px;
+    bottom: 0;
+    width: 308px;
+    height: 170px;
+    -webkit-animation-name: moving-vehicle-1;
+    -moz-animation-name: moving-vehicle-1;
+    -ms-animation-name: moving-vehicle-1;
+    -o-animation-name: moving-vehicle-1;
+    animation-name: moving-vehicle-1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 9s;
+    -moz-animation-duration: 9s;
+    -ms-animation-duration: 9s;
+    -o-animation-duration: 9s;
+    animation-duration: 9s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.feature-section .feature-section-vehicle-2 {
+    position: absolute;
+    left: -666px;
+    top: 109px;
+    bottom: 0;
+    width: 308px;
+    height: 170px;
+    -webkit-animation-name: moving-vehicle-2;
+    -moz-animation-name: moving-vehicle-2;
+    -ms-animation-name: moving-vehicle-2;
+    -o-animation-name: moving-vehicle-2;
+    animation-name: moving-vehicle-2;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 12s;
+    -moz-animation-duration: 12s;
+    -ms-animation-duration: 12s;
+    -o-animation-duration: 12s;
+    animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.feature-section .feature-section-vehicle-3 {
+    position: absolute;
+    left: -1024px;
+    top: 109px;
+    bottom: 0;
+    width: 308px;
+    height: 170px;
+    -webkit-animation-name: moving-vehicle-3;
+    -moz-animation-name: moving-vehicle-3;
+    -ms-animation-name: moving-vehicle-3;
+    -o-animation-name: moving-vehicle-3;
+    animation-name: moving-vehicle-3;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 15s;
+    -moz-animation-duration: 15s;
+    -ms-animation-duration: 15s;
+    -o-animation-duration: 15s;
+    animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.feature-section .feature-section-wheels {
+    background-image: url(https://www.montagebook.com/images/cells/taco-main/shipping-wheels.png);
+    width: 240px;
+    height: 51px;
+    position: absolute;
+    left: 11.5%;
+    top: 120px;
+    background-repeat: no-repeat;
+}
+
+.feature-section-truck {
+    background-image: url(https://www.montagebook.com/images/cells/taco-main/shipping-truck.png);
+    width: 308px;
+    height: 148px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -4px;
+    -webkit-animation-name: truck;
+    -moz-animation-name: truck;
+    -ms-animation-name: truck;
+    -o-animation-name: truck;
+    animation-name: truck;
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -ms-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -ms-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.feature-section .feature-section-lamposts {
+    background-image: url(https://www.montagebook.com/images/cells/taco-main/shipping-lamposts.png);
+    width: 100%;
+    height: 216px;
+    position: absolute;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    top: 63px;
+    -webkit-animation-name: lamposts;
+    -moz-animation-name: lamposts;
+    -ms-animation-name: lamposts;
+    -o-animation-name: lamposts;
+    animation-name: lamposts;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.feature-section .feature-section-road {
+    width: 100%;
+    height: 4px;
+    background: #39444c;
+    position: absolute;
+    top: 275px;
+}
+
+@-moz-keyframes cityscape {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1398px 0
+    }
+}
+
+@-webkit-keyframes cityscape {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1398px 0
+    }
+}
+
+@-o-keyframes cityscape {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1398px 0
+    }
+}
+
+@-ms-keyframes cityscape {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1398px 0
+    }
+}
+
+@keyframes cityscape {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1398px 0
+    }
+}
+
+@-moz-keyframes lamposts {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -697px 0
+    }
+}
+
+@-webkit-keyframes lamposts {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -697px 0
+    }
+}
+
+@-o-keyframes lamposts {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -697px 0
+    }
+}
+
+@-ms-keyframes lamposts {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -697px 0
+    }
+}
+
+@keyframes lamposts {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -697px 0
+    }
+}
+
+@-moz-keyframes truck {
+    0% {
+        -moz-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -moz-transform: translateY(4px);
+        transform: translateY(4px)
+    }
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes truck {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px)
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-o-keyframes truck {
+    0% {
+        -o-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -o-transform: translateY(4px);
+        transform: translateY(4px)
+    }
+    100% {
+        -o-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-ms-keyframes truck {
+    0% {
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -ms-transform: translateY(4px);
+        transform: translateY(4px)
+    }
+    100% {
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes truck {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(4px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes moving-vehicle-1 {
+    0% {
+        left: -308px;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes moving-vehicle-2 {
+    0% {
+        left: -666px;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes moving-vehicle-3 {
+    0% {
+        left: -1024px;
+    }
+    100% {
+        left: 110%;
+    }
+}
